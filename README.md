@@ -60,23 +60,27 @@ flutter build apk --release
 ## Project Structure
 
 ```
-lib/
-├── config/              # Preset AI providers & config models
-├── data/                # Static topic card library
-├── models/              # Hive data models
-├── providers/           # Provider state management
-├── screens/             # UI screens
-│   ├── chat/
-│   ├── favorites/
-│   ├── home/
-│   ├── settings/
-│   └── topics/
-├── services/
-│   ├── ai/              # AI provider service (Dio + retry)
-│   ├── floating/        # Floating window service
-│   └── storage/         # Hive adapters & box helpers
-├── theme/               # App theme
-└── main.dart
+ai_assistant/
+├── lib/
+│   ├── config/              # Preset AI providers & config models
+│   ├── data/                # Static topic card library
+│   ├── models/              # Hive data models
+│   ├── providers/           # Provider state management
+│   ├── screens/             # UI screens
+│   │   ├── chat/
+│   │   ├── favorites/
+│   │   ├── home/
+│   │   ├── settings/
+│   │   └── topics/
+│   ├── services/
+│   │   ├── ai/              # AI provider service (Dio + retry)
+│   │   ├── floating/        # Floating window service
+│   │   └── storage/         # Hive adapters & box helpers
+│   ├── theme/               # App theme
+│   └── main.dart
+├── android/                 # Native Android project
+├── pubspec.yaml
+└── BUILD.md                 # Detailed build guide (中文)
 ```
 
 ## License
