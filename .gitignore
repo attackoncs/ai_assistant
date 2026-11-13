@@ -1,9 +1,4 @@
-# Reverse engineering & analysis tools (not part of the app)
-.screenshots/
-blutter/
-reverse_engineering/
-
-# Flutter build outputs (in case repo root includes ai_assistant/)
+# Flutter build outputs (repo root level)
 ai_assistant/build/
 ai_assistant/.dart_tool/
 ai_assistant/.idea/
