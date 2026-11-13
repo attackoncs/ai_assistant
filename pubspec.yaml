@@ -1,0 +1,41 @@
+﻿name: ai_assistant
+description: Open-source AI companion chat app with customizable AI backends
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # AI / HTTP
+  dio: ^5.5.0
+  retry: ^3.1.2
+
+  # Local persistence
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Utilities
+  uuid: ^4.4.0
+  intl: ^0.19.0
+  flutter_secure_storage: ^9.2.2
+
+  # UI
+  flutter_markdown: ^0.7.3
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
